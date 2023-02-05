@@ -1,0 +1,4 @@
+#DDoS Mitigation rules 
+
+alert tcp any any -> any any (flags:S; threshold: type both, count 100, seconds 1; sid:1000001; rev:1;)
+
