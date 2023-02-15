@@ -1,3 +1,4 @@
+//this code for final project purposes so read it carefully
 var ryu = '127.0.0.1';
 var controls = {};
 
